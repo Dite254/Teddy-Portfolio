@@ -32,6 +32,40 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teddy Mwanzia | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <nav>
+      <h1>Teddy Mwanzia</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h2>Creative Communicator. Visual Storyteller. Growth Strategist.</h2>
+    <p>Welcome to my portfolio—where strategy meets creativity.</p>
+    <a href="portfolio.html" class="cta-button">View My Work</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Teddy Mwanzia | Built with passion in Kenya</p>
+  </footer>
+</body>
+</html>
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -108,3 +142,9 @@ footer {
   padding: 1rem;
   background-color: rgba(0,0,0,0.6);
 }
+teddy-portfolio/
+├── index.html
+├── styles.css
+└── assets/
+    └── images/
+        └── background.jpg
