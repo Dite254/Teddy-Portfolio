@@ -5,15 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teddy Mutua Mwanzia | Portfolio</title>
   <style>
-    /* Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
     body {
       margin: 0;
       font-family: 'Antic', sans-serif;
-      background: linear-gradient(135deg, #1a0033, #003366);
+      background: url('background.jpeg.jpeg') no-repeat center center fixed;
+      background-size: cover;
       color: #f0f0f0;
       line-height: 1.6;
+      position: relative;
+    }
+
+    /* Overlay to improve readability */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(10, 0, 40, 0.7); /* purple-blue tint overlay */
+      z-index: -1;
     }
 
     h1, h2, h3 {
@@ -41,6 +52,8 @@
       max-width: 1000px;
       margin: 50px auto;
       padding: 0 20px;
+      background: rgba(0, 0, 0, 0.5); /* subtle card effect */
+      border-radius: 8px;
     }
 
     .projects {
@@ -50,7 +63,7 @@
     }
 
     .project-card {
-      background: rgba(255,255,255,0.05);
+      background: rgba(255,255,255,0.08);
       padding: 20px;
       border-radius: 8px;
     }
